@@ -8,7 +8,7 @@
     --small-font-size: .9rem;
     --smaller-font-size: .8rem;
 
-    --skin-color: #727eff;
+    --skin-color: #fe7676;
     --text-color : #f9f9f9d2;
     --box-color: #33333374;
     --title-color: white;
@@ -318,9 +318,11 @@ select{
     background: var(--skin-color);
     border: none;
     border-radius: 4px;
-    color: var(--title-color);
     cursor: pointer;
     transition: .3s;
+}
+.task__btn:hover{
+    color: var(--title-color);
 }
 .task__btn::after{
     content: '';
