@@ -276,7 +276,7 @@ span{
     font-size: var(--h3-font-size);
     display: flex;
     flex-wrap: wrap;
-    margin: 2rem;
+    margin: 2rem 2rem 0 2rem;
     justify-content: center;
 }
 .input__title img{
